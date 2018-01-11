@@ -1,0 +1,34 @@
+src/*.exe
+src/kolucoin
+src/kolucoind
+src/test_kolucoin
+.*.swp
+*.*~*
+*.bak
+*.rej
+*.orig
+*.o
+*.patch
+.kolucoin
+
+# Compilation and Qt preprocessor part
+*.qm
+Makefile
+kolucoin-qt
+kolucoin-Qt.app
+
+# Unit-tests
+Makefile.test
+kolucoin-qt_test
+
+# Resources cpp
+qrc_*.cpp
+
+# Qt creator
+*.pro.user
+
+# Mac specific
+.DS_Store
+build
+
+!src/leveldb-*/Makefile
